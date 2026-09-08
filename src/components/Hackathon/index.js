@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 import SectionImageContent from '../SectionImageContent';
-import Image from '/img/hackathon.jpg';
+import image from '/img/hackathon.jpg';
 import { MdOpenInNew } from 'react-icons/md';
 
 const hackathon = {
@@ -20,7 +20,7 @@ export default function Who() {
     <SectionImageContent
       title={hackathon.title}
       desc={hackathon.desc}
-      image={Image}
+      image={image}
       imagePos="left"
       buttonJSX={
         <>

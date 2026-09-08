@@ -5,9 +5,8 @@ import { homeFeatures } from '@site/src/data';
 function Feature({Icon, title, description}) {
   return (
     <div className={`card ${styles.feature}`}>
-      <div className="card__header">
-        <Icon className={styles.icon}/>
-        <h3 className={styles.featureTitle}>{title}</h3>
+      <div className={`card__header ${styles.header}`}>
+        <Icon className={styles.icon}/><h3 className={styles.headerText}>{title}</h3>
       </div>
       <div className={`card__body ${styles.desc}`}>
         <p>

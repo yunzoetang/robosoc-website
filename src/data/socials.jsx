@@ -15,7 +15,7 @@ export const socials = [
     id: 'whatsapp',
     label: 'Whatsapp',
     img: '/assets/whatsapp.svg',
-    to: 'https://chat.whatsapp.com/HmHOTFdzhLOFTDfTP8b2ph',
+    to: 'https://chat.whatsapp.com/FEw0a7Jzj1b3Cilspu8E75',
   },
   {
     id: 'youtube',

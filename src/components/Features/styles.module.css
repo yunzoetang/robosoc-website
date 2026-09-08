@@ -2,6 +2,16 @@
   background-color: #1C211C;
 }
 
+.header {
+  display: inline-flex;
+  align-items: end;
+  gap: 0.5em;
+}
+
+.headerText {
+  display: inline;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -20,5 +30,4 @@
   height: 32px;
   width: auto;
   color: var(--ifm-color-content);
-  margin: 1rem 0;
 }

@@ -14,11 +14,11 @@ export const homeFeatures = [
     ),
   },
   {
-    title: 'Socials',
-    Icon: FaUserFriends,
+    Icon: MdBuild,
+    title: 'Hackathons',
     description: (
       <>
-        Get to know our community better at our social nights! Socialise after each session, or just drop by for the socials without committing to a project.
+        Form a team and tackle challenges within 24 hours! Our yearly hackathon is one of the biggest 24-hour hackathons in the UK, and members are free to join and at no cost.
       </>
     ),
   },
@@ -32,11 +32,11 @@ export const homeFeatures = [
     ),
   },
   {
-    Icon: MdBuild,
-    title: 'Hackathons',
+    title: 'Socials',
+    Icon: FaUserFriends,
     description: (
       <>
-        Form a team and tackle challenges within 24 hours! Our yearly hackathon is one of the biggest 24-hour hackathons in the UK, and members are free to join and at no cost.
+        Get to know our community better at our social nights! Socialise after each session, or just drop by for the socials without committing to a project.
       </>
     ),
   },

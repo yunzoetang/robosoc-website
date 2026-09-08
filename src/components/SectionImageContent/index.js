@@ -1,5 +1,5 @@
 import Section from '../Section';
-
+import IdealImage from '@theme/IdealImage';
 import styles from './styles.module.css';
 
 function Content(props) {
@@ -23,7 +23,7 @@ function Content(props) {
 function Image(props) {
   return (
     <div className={styles.imageContainer}>
-      <img className={styles.image} src={props.image} />
+      <IdealImage className={styles.image} img={props.image} />
     </div>
   )
 }
